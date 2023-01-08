@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/remote/us01home57/urmish/.local/share/nvim/mason/packages/flake8/venv"
+set -gx VIRTUAL_ENV "$HOME/.local/share/nvim/mason/packages/flake8/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
